@@ -1,0 +1,4 @@
+SELECT count (case_number) AS CRIME_RATE 
+FROM `bigquery-public-data.chicago_crime.crime` 
+where primary_type='NARCOTICS'
+
